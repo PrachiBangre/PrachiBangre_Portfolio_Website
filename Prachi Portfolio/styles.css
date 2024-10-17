@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    background-color: blueviolet;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 40px; /* Adjust size of logo image */
+    margin-right: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center; /* Center the main content horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 40px;
+}
+.know-more-button {
+    background-color: blueviolet; /* Button color */
+    color: black; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.text-section {
+    width: 50%; /* Adjust as needed */
+}
+
+.image-section {
+    width: 50%; /* Adjust as needed */
+    display: flex; /* To center the image within its container */
+    justify-content: center;
+}
+
+.profile-img {
+    width: 250px; /* Set equal width and height */
+    height: 250px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits within the circular frame */
+}
+
+
+.about-content {
+    display: flex;
+    padding: 40px;
+}
+.view-my-work-button {
+    background-color: blueviolet; /* Button color */
+    color: black; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.about-image, .about-description {
+    width: 50%; /* Make both sections equal width */
+}
+
+
+.about-img {
+    width: 70%; /* Adjust size of about image */
+    border-radius: 70%;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #333;
+    border-radius: 15px; /* Increased border radius */
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    width: 150px; /* Adjust width as needed */
+    transition: transform 0.3s; /* Animation */
+}
+
+.skill-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    background-color: #333;
+    border-radius: 15px; /* Increased border radius */
+    padding: 20px;
+    margin: 15px;
+    width: 30%; /* Adjust width as needed */
+    text-align: center;
+    transition: transform 0.3s; /* Animation */
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.view-code-button {
+    background-color: blueviolet; /* Button color */
+    color: black; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.view-code-button:hover {
+    background-color: softpurple; /* Button hover color */
+}
+
+.contact-content {
+    display: flex;
+    padding: 40px;
+}
+
+.contact-image {
+    width: 50%; /* Adjust size as needed */
+}
+
+.tech-img {
+    width: 70%; /* Adjust size of tech image */
+}
+
+.contact-form {
+    width: 50%; /* Adjust size as needed */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: blueviolet; /* Button color */
+    color: black; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: rgb(159, 100, 255); /* Button hover color */
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(103, 31, 170);
+    color: white;
+}
+h1, h2, h4 {
+    text-align: center;
+}
