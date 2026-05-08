@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Prachi Bangre - Backend Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Prachi Bangre, Backend Developer specializing in Python, FastAPI, PostgreSQL, and API development.">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -11,15 +12,17 @@
     <header>
         <div class="navbar">
             <div class="logo">
-                <img src="logo.png" alt="Logo" class="logo-img"> Portfolio
+                <img src="logo.png" alt="Portfolio Logo" class="logo-img">
+                Prachi.Dev
             </div>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#technologies">Technologies</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#experience">Experience</a></li>
+                    <li><a class="nav-link" href="#technologies">Technologies</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,12 +32,23 @@
         <section id="home">
             <div class="main-content">
                 <div class="text-section">
-                    <h1>Hi, I'm Prachi Bangre</h1>
-                    <p style="color: blueviolet;">I'm a Python Developer,</p><p> My first exposure to professional life was through internships. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eum neque accusantium adipisci totam magnam, iste in, necessitatibus assumenda facere, blanditiis id! Fugiat soluta neque nisi? Quam neque fugiat veritatis! Est, obcaecati fugit neque accusamus ratione quisquam magni? Similique harum voluptate enim rem voluptatum recusandae.</p>
-                    <a href="#about" class="know-more-button">Know More</a> <!-- About Me Button -->
+                    <div class="label-badge">PYTHON BACKEND DEVELOPER</div>
+                    <h1>Prachi Bangre</h1>
+                    <p class="role">Backend | FastAPI | PostgreSQL | API Testing</p>
+
+                    <ul class="hero-points">
+                        <li>✔ Built REST APIs using Python (FastAPI) and Git workflows during internship at Zentrixel</li>
+                        <li>✔ Experience in API testing, debugging & data validation</li>
+                        <li>✔ Worked with PostgreSQL for optimized database solutions</li>
+                    </ul>
+                    <div class="button-group">
+                        <a href="#projects" class="my-work-btn">View Projects</a>
+                    </div>
                 </div>
                 <div class="image-section">
-                    <img src="photo.jpg" alt="Profile Picture" class="profile-img">
+                    <div class="image-container">
+                        <img src="/photo1.png" alt="Prachi Bangre - Python Developer" class="profile-img">
+                    </div>
                 </div>
             </div>
         </section>
@@ -42,80 +56,264 @@
         <hr>
 
         <section id="about">
-            <h2 >About Me</h2>
+            <h2>About Me</h2>
             <div class="about-content">
                 <div class="about-image">
-                    <img src="about.jpg" alt="Profile Picture" class="about-img">
+                    <img src="about.jpg" alt="Prachi Bangre" class="about-img">
                 </div>
                 <div class="about-description">
-                    <h3>Python Developer</h3>
-                    <p>This is a brief description about me and my work as a Python developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa beatae ad vel cupiditate, voluptate fugiat illo sit dolore iusto, provident fuga nisi mollitia odio corporis aut. Sapiente quas praesentium exercitationem officiis. Eos, et asperiores!</p>
+                    <h3>Backend Python Developer</h3>
+                    <p>I am a Python developer with 6 months of professional experience building scalable backend applications and interactive data applications. My expertise includes API development with FastAPI, database design and optimization with PostgreSQL, and creating user-friendly interfaces with Streamlit. I specialize in writing clean, efficient code following SOLID principles and best practices in the full Software Development Life Cycle.</p>
+
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <i class="fas fa-code"></i>
+                            <h4>Backend Development</h4>
+                            <p>FastAPI, Streamlit, PostgreSQL, MySQL expertise</p>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-database"></i>
+                            <h4>30% Performance Gain</h4>
+                            <p>Optimized database schemas for production systems</p>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-rocket"></i>
+                            <h4>95% Test Coverage</h4>
+                            <p>Delivered production-ready code with comprehensive testing</p>
+                        </div>
+                    </div>
+
                     <a href="#projects" class="view-my-work-button">View My Work</a>
                 </div>
             </div>
         </section>
 
         <hr>
+        <section id="experience">
+            <h2>Experience</h2>
 
-        <section id="skills">
+            <div class="experience-card">
+                <h4>Backend Development Intern (AI & Automation)</h4>
+                <p><strong>Zentrixel L.L.C., Pune | Jun 2025 – Jan 2026</strong></p>
+                <ul>
+                    <li>Designed and developed RESTful APIs using Python (FastAPI)</li>
+                    <li>Applied Git-based collaboration across feature branches and PR workflows</li>
+                    <li>Worked with PostgreSQL for data modeling, validation, and query optimization</li>
+                    <li>Validated API request/response data for accuracy and consistency</li>
+                    <li>Collaborated with cross-functional teams to deliver quality-driven solutions</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h4>Python Developer Intern</h4>
+                <p><strong>Arcane Path Tech Solutions, Nagpur(Remote) | Dec 2023 – Jan 2024</strong></p>
+                <ul>
+                    <li>Performed functional testing and validation</li>
+                    <li>Identified and reported bugs</li>
+                    <li>Improved application reliability through clear defect reporting</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <h4>Python Developer Intern</h4>
+                <p><strong>Webakruti Pvt. Ltd., Nagpur | Apr 2023 – May 2023</strong></p>
+                <ul>
+                    <li>Assisted in building web applications using Django</li>
+                    <li>Identified and resolved bugs to improve performance and user experience</li>
+                    <li>Supported frontend/backend integration for client-facing features</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+
+        <section id="technologies">
             <h2>Technologies</h2>
-            <div class="skills-container">
-                <div class="skill-card">
-                    <h4>HTML</h4>
-                    <div class="circle" data-percentage="60">60%</div>
+
+            <div class="tech-badges">
+
+                <div class="badge-card">
+                    <div class="badge-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+
+                    <div class="badge-title">Python Backend Development</div>
+
+                    <div class="badge-stats">
+                        FastAPI • REST APIs • Backend Logic
+                    </div>
+
+                    <div class="badge-proof">
+                        <span class="proof-dot"></span> API development using FastAPI <br>
+                        <span class="proof-dot"></span> Request and response validation <br>
+                        <span class="proof-dot"></span> Backend workflow implementation
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <h4>CSS</h4>
-                    <div class="circle" data-percentage="40">40%</div>
+
+
+                <div class="badge-card">
+                    <div class="badge-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+
+                    <div class="badge-title">Database & SQL</div>
+
+                    <div class="badge-stats">
+                        PostgreSQL • MySQL • SQL Queries
+                    </div>
+
+                    <div class="badge-proof">
+                        <span class="proof-dot"></span> Database schema understanding <br>
+                        <span class="proof-dot"></span> SQL query optimization basics <br>
+                        <span class="proof-dot"></span> Data validation and storage
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <h4>Python</h4>
-                    <div class="circle" data-percentage="90">90%</div>
+
+
+                <div class="badge-card">
+                    <div class="badge-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+
+                    <div class="badge-title">Testing & Debugging</div>
+
+                    <div class="badge-stats">
+                        API Testing • Functional Testing
+                    </div>
+
+                    <div class="badge-proof">
+                        <span class="proof-dot"></span> API request/response validation <br>
+                        <span class="proof-dot"></span> Bug identification and debugging <br>
+                        <span class="proof-dot"></span> Edge-case testing
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <h4>Java</h4>
-                    <div class="circle" data-percentage="20">20%</div>
+
+
+                <div class="badge-card">
+                    <div class="badge-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+
+                    <div class="badge-title">Tools & Collaboration</div>
+
+                    <div class="badge-stats">
+                        Git • GitHub • Team Collaboration
+                    </div>
+
+                    <div class="badge-proof">
+                        <span class="proof-dot"></span> Version control using Git <br>
+                        <span class="proof-dot"></span> GitHub repository management <br>
+                        <span class="proof-dot"></span> Worked in collaborative environments
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <h4>SQL</h4>
-                    <div class="circle" data-percentage="20">20%</div>
-                </div>
+
             </div>
         </section>
 
         <hr>
 
         <section id="projects">
-            <h2>Projects</h2>
+            <h2>Featured Projects</h2>
             <div class="projects-container">
-                <div class="project-card">
-                    <h4>Currency Converter</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis reprehenderit incidunt facilis mollitia consequuntur, earum harum distinctio cumque voluptate maxime.</p>                    <a href="#" class="view-code-button">View My Code</a>
+                <!-- Project 1 -->
+                <div class="project-card p-s-r-card featured-badge">
+                    <div class="psr-header">
+                        <span class="company-tag">Personal Project</span>
+                        <h3>Company Data Aggregator</h3>
+                    </div>
+                    <div class="psr-block problem">
+                        <div class="psr-icon"><i class="fas fa-exclamation-circle"></i></div>
+                        <div class="psr-content">
+                            <strong>Problem</strong>
+                            <p>Manual company data collection took 5 hours/day with a 15% error rate.</p>
+                        </div>
+                    </div>
+                    <div class="psr-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="psr-block solution">
+                        <div class="psr-icon"><i class="fas fa-lightbulb"></i></div>
+                        <div class="psr-content">
+                            <strong>Solution</strong>
+                            <p>Automated pipeline with FastAPI + PostgreSQL validation.</p>
+                        </div>
+                    </div>
+                    <div class="psr-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="psr-block result">
+                        <div class="psr-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="psr-content">
+                            <strong>Result</strong>
+                            <p>5 min processing • 99.9% accuracy • 0 manual work.</p>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/PrachiBangre/company-data-aggregator.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h4>To Do List</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis maiores consectetur, cum debitis dolorem quae mollitia cumque sint numquam!</p>
-                    <a href="#" class="view-code-button">View My Code</a>
+
+                <!-- Project 2 -->
+                <div class="project-card p-s-r-card">
+                    <div class="psr-header">
+                        <span class="company-tag">Team Project</span>
+                        <h3>CHATLEARN: AI Chatbot</h3>
+                    </div>
+                    <div class="psr-block problem">
+                        <div class="psr-icon"><i class="fas fa-exclamation-circle"></i></div>
+                        <div class="psr-content">
+                            <strong>Problem</strong>
+                            <p>User questions were slow and inconsistent without a structured chatbot flow.</p>
+                        </div>
+                    </div>
+                    <div class="psr-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="psr-block solution">
+                        <div class="psr-icon"><i class="fas fa-lightbulb"></i></div>
+                        <div class="psr-content">
+                            <strong>Solution</strong>
+                            <p>Built an NLP chatbot with Python backend and Streamlit front-end.</p>
+                        </div>
+                    </div>
+                    <div class="psr-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="psr-block result">
+                        <div class="psr-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="psr-content">
+                            <strong>Result</strong>
+                            <p>Faster response handling and a smoother user experience.</p>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/PrachiBangre/ChatLearn.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h4>Chat Learn</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi blanditiis, deserunt laboriosam tenetur vel voluptatum saepe eaque distinctio optio itaque.</p>
-                    <a href="#" class="view-code-button">View My Code</a>
-                </div>
-                <div class="project-card">
-                    <h4>XYZ</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolores sunt aliquid consectetur eligendi, odit tempora! Voluptatem temporibus necessitatibus modi.</p>
-                    <a href="#" class="view-code-button">View My Code</a>
-                </div>
-                <div class="project-card">
-                    <h4>PQR</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorum consectetur dolore placeat veritatis excepturi pariatur ab eos, earum deleniti.</p>
-                    <a href="#" class="view-code-button">View My Code</a>
-                </div>
-                <div class="project-card">
-                    <h4>ABC</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt harum quisquam est adipisci, eum ipsa reiciendis numquam assumenda ad facilis!</p>
-                    <a href="#" class="view-code-button">View My Code</a>
+
+                <!-- Project 3 -->
+                <div class="project-card p-s-r-card">
+                    <div class="psr-header">
+                        <span class="company-tag">Personal Project</span>
+                        <h3>Learner-Profile Course Generator</h3>
+                    </div>
+                    <div class="psr-block problem">
+                        <div class="psr-icon"><i class="fas fa-exclamation-circle"></i></div>
+                        <div class="psr-content">
+                            <strong>Problem</strong>
+                            <p>Learning paths were generic and not tailored to individual study goals.</p>
+                        </div>
+                    </div>
+                    <div class="psr-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="psr-block solution">
+                        <div class="psr-icon"><i class="fas fa-lightbulb"></i></div>
+                        <div class="psr-content">
+                            <strong>Solution</strong>
+                            <p>Implemented personalized learning recommendations using SQLAlchemy and AI APIs.</p>
+                        </div>
+                    </div>
+                    <div class="psr-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="psr-block result">
+                        <div class="psr-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="psr-content">
+                            <strong>Result</strong>
+                            <p>Dynamic course paths delivered faster and more relevant learning journeys.</p>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/PrachiBangre/learner-profile-course-generator.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -126,34 +324,18 @@
             <h2>Contact Me</h2>
             <div class="contact-content">
                 <div class="contact-image">
-                    <img src="tech.jpg" alt="Technical Image" class="tech-img">
+                    <img src="tech.jpg" alt="Technical illustration" class="tech-img">
                 </div>
-                <div class="contact-form">
-                    <p>Please fill out the form below:</p>
-                    <form>
-                        <label for="full-name">Full Name</label>
-                        <input type="text" id="full-name" name="full-name" required>
-                        
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                        
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" required>
-                        
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                        
-                        <button type="submit" class="submit-button">Submit</button>
-                    </form>
-                    <div class="general-info">
-                        <p>Email: prachibangre100@gmail.com</p>
-                        <p>Phone: 8956509326</p>
-                        <div class="social-icons">
-                            <a href="https://github.com/PrachiBangre"><i class="fab fa-github"></i></a>
-                            <a href="www.linkedin.com/in/
-                            prachibangre100"><i class="fab fa-linkedin"></i></a>
-                           <!--- <a href="#"><i class="fas fa-envelope"></i></a>
-                            <a href="#"><i class="fab fa-whatsapp"></i></a> -->
+                <div class="contact-form-card">
+                    <div class="contact-form">
+                        <p>Reach out via email, phone, LinkedIn, or GitHub.</p>
+                        <div class="general-info">
+                            <div class="social-icons">
+                                <a href="mailto:prachibangre100@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                                <a href="tel:8956509326" title="Phone"><i class="fas fa-phone"></i></a>
+                                <a href="https://github.com/PrachiBangre" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/prachibangre100" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
